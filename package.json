@@ -1,0 +1,34 @@
+{
+    "name": "mojom-language",
+    "displayName": "Chromium Mojom Language",
+    "description": "Highlights Chromium Mojom files",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "mojom",
+                "aliases": [
+                    "Mojom",
+                    "mojom"
+                ],
+                "extensions": [
+                    ".mojom"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "mojom",
+                "scopeName": "source.mojom",
+                "path": "./syntaxes/mojom.tmLanguage.json"
+            }
+        ]
+    }
+}
