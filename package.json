@@ -30,5 +30,8 @@
                 "path": "./syntaxes/mojom.tmLanguage.json"
             }
         ]
-    }
+    },
+    "author": "Joel Einbinder",
+    "publisher": "JoelEinbinder",
+    "repository": "https://github.com/JoelEinbinder/mojom-language"
 }
