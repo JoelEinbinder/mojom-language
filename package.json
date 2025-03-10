@@ -19,7 +19,7 @@
                 ],
                 "extensions": [
                     ".mojom",
-                    ".test-mojom",
+                    ".test-mojom"
                 ],
                 "configuration": "./language-configuration.json"
             }
